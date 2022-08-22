@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video 2</title>
+  </head>
+  <body>
+    <p>Everything in javascript happens in Execution Context.</p>
+    <p>
+      Javascript is a synchronous single threaded language that means it can
+      execute one line of code at a time.
+    </p>
+    <hr />
+
+    <p>
+      Function along with its lexical scope bundle together to form closures.
+    </p>
+
+    <hr />
+
+    <ol>
+      <li>
+        Function that is passed on as argument to another function is called
+        callback function.
+      </li>
+      <li>Event listeners can also invoke closures with scope.</li>
+      <li>
+        Event listeners consume a lot of memory which can potentially slow down
+        the website therefore it is good practice to remove if it is not used.
+      </li>
+    </ol>
+    <button id="my-btn">Click Me</button>
+
+    <hr />
+
+    <p>Event loop for javascript</p>
+    <ul>
+      <li>
+        call stack is maintained by js engine while callback queue & microtask
+        queue is maintained by browser(web apis).
+      </li>
+      <li>microtask queue has priority over callback queue.</li>
+      <li>
+        callback queue & microtask queue are pushed by event loop only when call
+        stack is empty.
+      </li>
+    </ul>
+    <!-- <script src="Video-2.js"></script>
+    <script src="Functions.js"></script>
+    <script src="Closures.js"></script> -->
+    <script src="CallbackFunctions.js"></script>
+  </body>
+</html>
