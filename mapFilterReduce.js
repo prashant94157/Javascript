@@ -1,4 +1,4 @@
-let arr = [1, 7, 5, 9, 4, 6, 11];
+// let arr = [1, 7, 5, 9, 4, 6, 11];
 
 //----------------------------------------------------------------------------
 
@@ -49,12 +49,12 @@ let arr = [1, 7, 5, 9, 4, 6, 11];
 
 //--------------------------------------------------------------------------------
 
-var users = [
-  { firstName: 'akshay', lastName: 'saini', age: 26 },
-  { firstName: 'donald', lastName: 'trump', age: 75 },
-  { firstName: 'elon', lastName: 'musk', age: 50 },
-  { firstName: 'deep', lastName: 'singh', age: 26 },
-];
+// var users = [
+//   { firstName: 'akshay', lastName: 'saini', age: 26 },
+//   { firstName: 'donald', lastName: 'trump', age: 75 },
+//   { firstName: 'elon', lastName: 'musk', age: 50 },
+//   { firstName: 'deep', lastName: 'singh', age: 26 },
+// ];
 
 //O/P {26 : 2, 50 : 1, 75 : 1}
 // var output = users.reduce((acc, curr) => {
@@ -75,9 +75,12 @@ var users = [
 // var firstNames = users
 //   .filter((user) => user.age < 30)
 //   .map((user) => user.firstName);
+
 //version 2
-var firstNames = users.reduce((acc, curr) => {
-  if (curr.age < 30) acc.push(curr.firstName);
-  return acc;
-}, []);
-console.log(firstNames);
+// var firstNames = users.reduce((acc, curr) => {
+//   if (curr.age < 30) acc.push(curr.firstName);
+//   return acc;
+// }, []);
+// console.log(firstNames);
+
+//----------------------------------------------------------------------------

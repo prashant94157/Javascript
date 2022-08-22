@@ -60,6 +60,7 @@
 // printFullName.call(user2, 'Charbagh', 'Lucknow', 'Uttar Pradesh', 'India');
 
 //-----------------------------------------------------------
+
 //apply
 //With the apply() method, you can write a method that can be used on different objects.
 //it is different from call function is that how arguments are passed
